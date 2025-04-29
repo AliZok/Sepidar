@@ -1,5 +1,5 @@
 .my-container {
-    max-width: 1200px;
+    max-width: 1440px;
     width: 100%;
     margin: 0 auto;
 }
@@ -850,3 +850,6 @@ h1 {
     top: 258px;
 }
 
+.faq-answer {
+    display: none;
+}
