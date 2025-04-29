@@ -18,7 +18,11 @@
     box-sizing: border-box;
     color: #555;
 }
-
+#map {
+    height: 200px;
+    width: 100%;
+    border-radius: 0.5rem;
+}
 body {
     margin: 0;
     padding: 0;
