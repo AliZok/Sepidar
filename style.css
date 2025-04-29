@@ -14,12 +14,14 @@
 
 /* Reset and Base Styles */
 * {
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
+    color: #555;
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: 'Vazirmatn', sans-serif;
     background-color: #f5f5f5;
     color: #333;
@@ -169,19 +171,7 @@ h1 {
 
 /* third  */
 /* Reset and Base Styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Vazirmatn', sans-serif;
-    background-color: #f5f5f5;
-    color: #333;
-    line-height: 1.6;
-    direction: rtl;
-}
 
 .container {
     width: 90%;
@@ -765,6 +755,7 @@ h1 {
     background: gray;
     width: 1px;
 }
+
 .simple-steps .line5 {
     position: absolute;
     top: 550px;
@@ -773,6 +764,7 @@ h1 {
     background: gray;
     width: 50px;
 }
+
 .simple-steps .logo {
     position: absolute;
     top: 25vh;
@@ -780,5 +772,81 @@ h1 {
     width: 50%;
     text-align: left;
     font-size: 34px;
+}
+
+
+.roadmap-container {
+    position: relative;
+    width: 100%;
+}
+
+.roadmap-png {
+    height: 450px;
+    width: 100%
+}
+
+.phase {
+    position: absolute;
+    z-index: 10;
+    text-align: center;
+    width: 134px;
+}
+
+.phase-marker {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 12px solid #2D3142;
+    margin-bottom: 5px;
+}
+
+.phase h3 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2D3142;
+    margin-bottom: 5px;
+}
+
+.phase-content {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Phase Positions */
+.phase-1 {
+    top: 15px;
+    left: 5%;
+}
+
+.phase-2 {
+    bottom: 22px;
+    left: 16%;
+}
+
+.phase-3 {
+    top: 30px;
+    left: 32%;
+}
+
+.phase-4 {
+    bottom: 40px;
+    left: 50%;
+}
+
+.phase-5 {
+    top: -100px;
+    right: 20%;
+}
+
+.phase-6 {
+    right: 8%;
+    top: 258px;
 }
 

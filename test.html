@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;700&display=swap">
     <!-- jQuery CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <!-- Slick Slider CDN -->
@@ -203,12 +204,222 @@
                     <div class="text-how">
                         چطورتنها با چند قدم، <br>
                         ساده، مالک بخشی از <br>
-                        <img src="./assets/images/sepidar-logo.svg" alt="">
+                        <img class="inline-block" src="./assets/images/sepidar-logo.svg" alt="">
                         شوید!
                     </div>
                 </div>
             </div>
         </section>
+
+        <!-- road map section  -->
+        <div class="roadmap-container">
+            <!-- SVG Road Path -->
+            <img class="roadmap-png" src="/assets//images/snake-line.png" alt="">
+
+            <!-- Phase 1 -->
+            <div class="phase phase-1">
+                <div class="phase-marker justify-center">
+                    <div class="triangle"></div>
+                    <h3>فــــاز ۱</h3>
+                </div>
+                <div class="phase-content">
+                    <p>آغاز عملیات اجرایی و</p>
+                    <p>خاک‌برداری</p>
+                </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="phase phase-2">
+                <div class="phase-marker justify-center">
+                    <div class="triangle"></div>
+                    <h3>فــــاز ۲</h3>
+                </div>
+                <div class="phase-content">
+                    <p>اجرای پی و اسکلت بتنی</p>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="phase phase-3">
+                <div class="phase-marker justify-center">
+                    <div class="triangle"></div>
+                    <h3>فــــاز ۳</h3>
+                </div>
+                <div class="phase-content">
+                    <p>اجرای سازه‌های اصلی</p>
+                    <p>(اتاق‌ها و سالن)</p>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="phase phase-4">
+                <div class="phase-marker justify-center">
+                    <div class="triangle"></div>
+                    <h3>فــــاز ۴</h3>
+                </div>
+                <div class="phase-content">
+                    <p>اجرای نمای بیرونی و</p>
+                    <p>دیوارهای داخلی</p>
+                </div>
+            </div>
+
+            <!-- Phase 5 -->
+            <div class="phase phase-5">
+                <div class="phase-marker justify-center gap-[5px]">
+                    <h3 class="w-">فــــاز ۵</h3>
+
+                    <svg class="w-[15px]" xmlns="http://www.w3.org/2000/svg" width="22" height="19" viewBox="0 0 22 19"
+                        fill="none">
+                        <path
+                            d="M10.7207 18.8883C10.4069 18.886 10.0993 18.8021 9.82782 18.6448C9.55638 18.4875 9.3306 18.2623 9.17282 17.9912L0.607374 3.3444C0.448619 3.07075 0.364407 2.76029 0.363173 2.44399C0.361939 2.12769 0.443705 1.81658 0.60032 1.54169C0.756935 1.26681 0.982923 1.03774 1.25576 0.877327C1.52861 0.716912 1.83879 0.630753 2.15535 0.627441H19.2759C19.5925 0.630753 19.9026 0.716912 20.1755 0.877327C20.4483 1.03774 20.6743 1.26681 20.8309 1.54169C20.9875 1.81658 21.0694 2.12769 21.0681 2.44399C21.0669 2.76029 20.9826 3.07075 20.8239 3.3444L12.2585 17.9912C12.102 18.2611 11.8779 18.4857 11.6083 18.6429C11.3388 18.8002 11.0329 18.8848 10.7207 18.8883ZM5.30288 4.23631L10.7207 13.5163L16.1386 4.23631H5.30288Z"
+                            fill="#3E4257" />
+                    </svg>
+                </div>
+                <div class="phase-content">
+                    <p>اجرای تاسیسات داخلی</p>
+                    <p>ساختمان</p>
+                </div>
+            </div>
+
+            <!-- Phase 6 -->
+            <div class="phase phase-6">
+                <div class="phase-marker justify-center">
+                    <div class="triangle"></div>
+                    <h3>فــــاز ۶</h3>
+                </div>
+                <div class="phase-content">
+                    <p>نازک‌کاری داخلی و</p>
+                    <p>زیرساخت‌های تاسیساتی</p>
+                    <p>بیرونی</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- articles  -->
+
+        <div class="pt-[130px] pb-[50px]">
+            <div class="container">
+                <div class="flex">
+                    <div class="flex-1 pl-4">
+                        <div class="pb-[29px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">چگونه با خرید توکن سپیدار در املاک کلاردشت
+                                سرمایه‌گذاری کنیم؟</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">توکن سپیدار؛ پلی بین سرمایه‌گذاری سنتی و دنیای
+                                دیجیتال</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">مدل اقتصاد توکن سپیدار به زبان ساده</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">چرا توکنیزه‌ کردن املاک آینده بازار مسکن ایران
+                                است؟</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">مراحل ساخت پروژه سپیدار و تغییرات قیمت توکن در
+                                هر فاز</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">بلاکچین در خدمت معماری؛ داستان شفافیت در سپیدار
+                            </h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">مزایای خرید املاک با توکن در پروژه‌هایی مثل
+                                سپیدار</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                        <div class="pb-[15px] pt-[15px] border-b-[1px] border-b-[#555] h-[110px]">
+                            <h4 class="text-[16px] mb-[14px] font-[600]">توکن‌های مسکونی؛ فصل جدیدی در توسعه شهری</h4>
+                            <div class="flex justify-between">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex-1 px-[10px] flex flex-col justify-between">
+                        <div class="mb-[25px]">
+                            <div class="mb-[10px]">
+                                <img class="" src="/assets/images/artice-pic-1.png" alt="">
+                            </div>
+                            <div class="flex justify-between mb-[10px]">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                            <h4 class="text-[16px] mb-[14px] font-[500] ">بلاکچین در بازار املاک؛ چرا اهمیت دارد؟</h4>
+
+                        </div>
+                        <div class="mb-[25px]">
+                            <div class="mb-[10px]">
+                                <img class="" src="/assets/images/artice-pic-2.png" alt="">
+                            </div>
+                            <div class="flex justify-between mb-[10px]">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                            <h4 class="text-[16px] mb-[14px] font-[500]">فناوری بلاکچین؛ انقلابی در دنیای خرید و فروش
+                                ملک.</h4>
+
+                        </div>
+                        <div class="mb-[25px]">
+                            <div class="mb-[10px]">
+                                <img class="" src="/assets/images/artice-pic-3.png" alt="">
+                            </div>
+                            <div class="flex justify-between mb-[10px]">
+                                <div class="text-[10px]">7 دقیقه</div>
+                                <div class="text-[10px]">25 بهمن 1404 - مینا طالبی</div>
+                            </div>
+                            <h4 class="text-[16px] mb-[14px] font-[500]">چرا بلاکچین آینده بازار املاک را متحول می‌کند؟
+                            </h4>
+
+                        </div>
+                    </div>
+                    <div class="flex-1 pr-4 flex items-center">
+                        <div class="flex flex-col gap-[20px] text-left">
+                            <h3 class="text-[64px]">
+                                جدیدترین مقالات ما
+                            </h3>
+                            <div class="text-[16px]">
+                                با نگاهی به راهکارهایی نوین از جمله مالکیت سهمی و اعتمادسازی از طریق بلاک‌چین، قدمی
+                                نزدیک‌تر
+                                به
+                                تحقق رؤیای مالکیت ملک در کلاردشت بردارید.
+                            </div>
+                            <div class="text-[12px]">
+                                آخرین بروزرسانی : سه روز پیش
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <script src="script.js"></script>
