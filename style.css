@@ -18,11 +18,13 @@
     box-sizing: border-box;
     color: #555;
 }
+
 #map {
     height: 200px;
     width: 100%;
     border-radius: 0.5rem;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -38,13 +40,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-
 
 header .container {
     display: flex;
@@ -62,19 +57,13 @@ nav ul {
     gap: 30px;
 }
 
-nav ul li a {
-    font-size: 16px;
-    font-weight: 500;
-    color: #555;
-    transition: color 0.3s ease;
-}
 
 nav ul li a:hover {
     color: #000;
 }
 
 .btn-outline {
-   
+
     border-radius: 30px;
     padding: 8px 25px;
     font-size: 14px;
@@ -146,10 +135,6 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
 
 header .container {
     display: flex;
@@ -157,9 +142,6 @@ header .container {
     align-items: center;
 }
 
-.logo img {
-    height: 40px;
-}
 
 nav ul {
     display: flex;
@@ -333,31 +315,8 @@ nav ul li a:hover {
 
 
 
-/* Features Section */
-.features-section {
-    padding: 80px 0;
-    background-color: #f5f5f5;
-    text-align: center;
-}
 
-.features-heading {
-    margin-bottom: 60px;
-}
 
-.features-heading h2 {
-    font-size: 36px;
-    font-weight: 600;
-    color: #888;
-    margin-bottom: 15px;
-}
-
-.features-heading h3 {
-    font-size: 28px;
-    font-weight: 400;
-    color: #aaa;
-    max-width: 700px;
-    margin: 0 auto;
-}
 
 .features-icons {
     display: flex;
@@ -383,13 +342,7 @@ nav ul li a:hover {
     font-size: 14px;
 }
 
-/* Whitepaper Section */
-.whitepaper-section {
-    padding: 80px 0;
-    background-color: #fff;
-    position: relative;
-    overflow: hidden;
-}
+
 
 .whitepaper-section::before {
     content: '';
@@ -417,103 +370,14 @@ nav ul li a:hover {
     flex: 1;
 }
 
-.whitepaper-image img {
-    width: 100%;
-    height: auto;
-    border-radius: 8px;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+
+.fade-me {
+    background: linear-gradient(180deg, #555 0.07%, #EAEAEA 118.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-
-.whitepaper-text {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.whitepaper-text-content {
-    max-width: 500px;
-}
-
-.whitepaper-text h3 {
-    font-size: 18px;
-    font-weight: 600;
-    color: #444;
-    margin-bottom: 20px;
-    line-height: 1.6;
-}
-
-.whitepaper-text p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 30px;
-}
-
-.btn-download {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background-color: transparent;
-    color: #444;
-    padding: 0;
-    font-size: 16px;
-    font-weight: 500;
-    transition: all 0.3s ease;
-}
-
-.btn-download:hover {
-    color: #000;
-}
-
-.btn-download i {
-    font-size: 18px;
-}
-
-/* Responsive Styles */
-@media (max-width: 992px) {
-    .whitepaper-content {
-        flex-direction: column;
-    }
-
-    .whitepaper-image,
-    .whitepaper-text {
-        width: 100%;
-    }
-
-    .whitepaper-text-content {
-        max-width: 100%;
-        text-align: center;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 768px) {
-    .features-heading h2 {
-        font-size: 28px;
-    }
-
-    .features-heading h3 {
-        font-size: 20px;
-    }
-
-    .features-icons {
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
-    }
-
-    .whitepaper-text h3 {
-        font-size: 16px;
-    }
-
-    .whitepaper-text p {
-        font-size: 14px;
-    }
-}
-
-
-/* //////////////////// */
-
 
 .hero {
     text-align: center;
@@ -572,17 +436,21 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
+.attach-line::after {
+    content: '';
+    position: absolute;
+    height: 30px;
+    bottom: -42px;
+    width: 1px;
+    background: rgb(190, 190, 190);
+}
+
 .bold {
     font-weight: bold;
 }
 
 
 /* <!-- Simple Steps Section --> */
-
-.simple-steps .wrap {
-    min-height: 100vh;
-    position: relative;
-}
 
 .simple-steps .line1 {
     position: absolute;
@@ -635,7 +503,7 @@ nav ul li a:hover {
     left: 16%;
     width: 50%;
     text-align: left;
-    font-size: 34px;
+    font-size: 66px;
 }
 
 
@@ -690,7 +558,7 @@ nav ul li a:hover {
 }
 
 .phase-2 {
-    bottom: 22px;
+    bottom: 12px;
     left: 16%;
 }
 
