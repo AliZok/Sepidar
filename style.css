@@ -3,6 +3,9 @@
     width: 100%;
     margin: 0 auto;
 }
+input{
+    outline: none;
+}
 
 .rtl {
     direction: rtl;
@@ -360,12 +363,6 @@ nav ul li a:hover {
     font-size: 20px;
     color: #888;
 }
-
-.feature-item p {
-    font-size: 14px;
-}
-
-
 
 .whitepaper-section::before {
     content: '';
