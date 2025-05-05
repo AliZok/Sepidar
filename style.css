@@ -1,5 +1,4 @@
-
-input{
+input {
     outline: none;
 }
 
@@ -34,7 +33,7 @@ body {
     direction: rtl;
 }
 
-.back-about-us-wrap{
+.back-about-us-wrap {
     position: absolute;
     left: 0;
     transform: translate(-50%, 0);
@@ -180,7 +179,8 @@ nav ul li a:hover {
     background-size: cover;
     display: flex;
 }
-.line-about-1{
+
+.line-about-1 {
     position: absolute;
     height: 1px;
     right: 1px;
@@ -188,7 +188,8 @@ nav ul li a:hover {
     top: 200px;
     background-color: #9C9C9C;
 }
-.line-about-2{
+
+.line-about-2 {
     position: absolute;
     height: 170px;
     right: 50%;
@@ -197,7 +198,7 @@ nav ul li a:hover {
     background-color: #9C9C9C;
 }
 
-.line-about-3{
+.line-about-3 {
     position: absolute;
     height: 1px;
     left: 160px;
@@ -207,7 +208,8 @@ nav ul li a:hover {
     z-index: 3;
     transform: rotate(-30deg);
 }
-.line-about-4{
+
+.line-about-4 {
     position: absolute;
     height: 1px;
     left: 328px;
@@ -417,26 +419,31 @@ nav ul li a:hover {
 
 .phase-2 {
     bottom: 12px;
-    left: 16%;
+    left: 22%;
+    transform: translateX(-50%);
+
 }
 
 .phase-3 {
     top: 30px;
-    left: 32%;
+    left: 37%;
+    transform: translateX(-50%);
 }
 
 .phase-4 {
     bottom: 40px;
-    left: 50%;
+    left: 55.5%;
+    transform: translateX(-50%);
 }
 
 .phase-5 {
     top: -100px;
-    right: 20%;
+    right: 25%;
+    transform: translateX(50%);
 }
 
 .phase-6 {
-    right: 8%;
+    right: 7%;
     top: 258px;
 }
 
